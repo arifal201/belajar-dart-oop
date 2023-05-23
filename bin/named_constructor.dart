@@ -5,10 +5,8 @@ class Person {
 
   Person(this.name, this.address);
 
-  /**
-   * untuk membuat constructor lebih dari 1 gunakan named constructor
-   * nama named constructor tidak boleh sama
-   */
+  /// untuk membuat constructor lebih dari 1 gunakan named constructor
+  /// nama named constructor tidak boleh sama
 
   Person.withName(this.name);
 

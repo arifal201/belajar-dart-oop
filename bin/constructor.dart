@@ -3,9 +3,7 @@ class Person {
   String? address;
   final String country = 'Indoensia';
 
-/**
- * di dart tidak dapat membuat lebih dari 1 constructor 
- */
+/// di dart tidak dapat membuat lebih dari 1 constructor 
 
   Person(String fullname, String fullAddress){
     name = fullname;

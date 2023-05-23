@@ -16,9 +16,7 @@ class Person {
  * untuk mengakses name yang sudah di deklarasikan sebelumnya
  */
 
-/**
- * formal parameter initialisazing 
- */
+/// formal parameter initialisazing 
   Person(this.name, this.address);
 
 }

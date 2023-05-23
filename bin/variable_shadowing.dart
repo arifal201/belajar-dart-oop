@@ -10,16 +10,11 @@ class Person {
  * dan nilai atau value nya tidak dapat berubah
  */
 
-/**
- * untuk mengatasi variable shadowing dapat diatasi dengan kata kunci this untuk mengakses name yang berada pada object
- * saat ini misal name yang dimaksud adalah name deklarasi bukan name parameter maka gunakan kata kunci this
- * untuk mengakses name yang sudah di deklarasikan sebelumnya
- */
+/// untuk mengatasi variable shadowing dapat diatasi dengan kata kunci this untuk mengakses name yang berada pada object
+/// saat ini misal name yang dimaksud adalah name deklarasi bukan name parameter maka gunakan kata kunci this
+/// untuk mengakses name yang sudah di deklarasikan sebelumnya
 
-  Person(String name, String address){
-    this.name = name;
-    this.address = address;
-  }
+  Person(this.name, String this.address);
 
 }
 

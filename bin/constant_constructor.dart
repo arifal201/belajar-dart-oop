@@ -5,10 +5,8 @@ class ImutablePoint {
   const ImutablePoint(this.x,this.y);
 }
 
-/**
- * constant constructor berguna untuk object yang harusnya sama tetapi dibuat berkali kali 
- * dan yang di inginkan adalah object yang seharusnya sama atau tetap sama tidak berubah ubah
- */
+/// constant constructor berguna untuk object yang harusnya sama tetapi dibuat berkali kali 
+/// dan yang di inginkan adalah object yang seharusnya sama atau tetap sama tidak berubah ubah
 
 void main(){
   var point1 = const ImutablePoint(20, 20);

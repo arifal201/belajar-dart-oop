@@ -10,19 +10,15 @@ class User {
     myFriends.add(name);
   }
 
-  /**
-   * belajar membuat method expression body
-   */
+  /// belajar membuat method expression body
 
   void getAllFriends() => print(myFriends);
 
 }
 
-/**
- * belajar membuat extension 
- */
+/// belajar membuat extension 
 
-extension addRemoveFriend on User{
+extension AddRemoveFriend on User{
   void removeFriend(String name){
     myFriends.remove(name);
   }

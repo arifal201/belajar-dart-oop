@@ -5,9 +5,7 @@ class Person {
 
   Person(this.name, this.address);
 
-  /**
-   * untuk meredirect constructor menggunakan kata kunci : this
-   */
+  /// untuk meredirect constructor menggunakan kata kunci : this
 
   Person.withName(String name) : this(name, 'no address');
 
